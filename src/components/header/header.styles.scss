@@ -25,3 +25,28 @@
     }
 }
   
+@media screen and (max-width: 646px) {
+  .header {
+    .logo-container {
+      padding: 25px 0px;
+    }
+    .options {
+      width: 80%;
+      .option {
+        padding: 10px 5px;
+      }
+    }
+  }
+}
+  
+@media screen and (max-width: 390px) {
+  .header {
+    .options {
+      width: 80%;
+      .option {
+        padding: 10px 5px;
+        font-size: 14px;
+      }
+    }
+  }
+}
